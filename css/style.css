@@ -73,7 +73,7 @@ h2{ margin: 1em;}
   width: 10.5vw;
   height: 10.5vw;
 }
-
+/* TODO: fix media query to aspect ratio */
 @media only screen and (max-width: 1200px){
   .made{
     margin-left: 15vw;
@@ -89,7 +89,7 @@ h2{ margin: 1em;}
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (orientation: portrait){
   body{
     height: 170vh;
   }
