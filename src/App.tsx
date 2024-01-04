@@ -1,14 +1,14 @@
-import "./App.css";
+import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import LandingPage from "./components/LandingPage";
+// import { PROJECTS, COURSES, WORK_HISTORY } from "./constants";
 
 function App() {
   return (
     <>
       <Header />
 
-      <LandingPage />
+      <AboutMe />
 
       <Footer />
     </>
