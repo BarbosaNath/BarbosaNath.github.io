@@ -3,9 +3,9 @@ import NavItem from "./NavItem";
 
 const Header = () => {
   return (
-    <nav className="p-2 mb-12 flex justify-between">
+    <nav className="p-4 mb-12 flex justify-between bg-gray-100">
       <h1 className="text-xl">Matheus Eduardo</h1>
-      <ul className="hidden md:flex items-center">
+      <ul className="hidden md:flex items-center gap-8">
         <NavItem active>Sobre Mim</NavItem>
         <NavItem>Portfólio</NavItem>
         <NavItem>Formação</NavItem>

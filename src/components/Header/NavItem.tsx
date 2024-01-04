@@ -6,7 +6,7 @@ const NavItem: FC<{ href?: string; children: ReactNode; active?: boolean }> = ({
   active,
 }) => {
   
-  let className = "mr-5";
+  let className = "";
   className += active ? " text-black" : " text-gray-600";
 
   return (
