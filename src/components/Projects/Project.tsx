@@ -9,13 +9,13 @@ const Project: FC<ProjectType> = ({
   links,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row text-center mx-auto shadow-[0_0_40px_-10px_rgba(0,0,0,0.3)] shadow-gray-300 m-10 w-5/6 rounded-lg min-h-[70vh] overflow-hidden">
+    <div className="flex flex-col text-center mx-auto shadow-[0_0_40px_-10px_rgba(0,0,0,0.3)] shadow-gray-300 m-10 w-5/6 rounded-lg h-100 overflow-hidden pb-2 lg:flex-row lg:pb-0 xl:flex-col xl:w-1/3 xl:m-0 xl:pb-2">
       <img
         src={image}
-        className="w-full h-48 md:min-h-[70vh] md:w-96 object-cover "
+        className="w-full h-48 md:h-60 lg:min-h-[70vh] lg:w-96 xl:w-full xl:max-h-20 xl:min-h-[30vh] object-cover "
       />
 
-      <div className="flex flex-col justify-center items-center m-auto gap-8">
+      <div className="flex flex-col justify-start items-center mx-auto my-4 lg:my-auto xl:my-4 gap-3">
         <h1 className="text-3xl text-teal-600">{name}</h1>
         <p className="text-md px-10 leading-8 text-gray-800">{description}</p>
 
