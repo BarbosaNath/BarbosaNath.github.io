@@ -1,7 +1,13 @@
+import CavesAndThornsIMG from "/caves_and_thorns.png"
+import FotoShoppingIMG from "/fotoshopping_logo_bigger.png"
+import IUULIMG from "/iuul.jpg"
+import PlaceHolderIMG from "/placeholder.png"
+
 export const PROJECTS: ProjectType[] = [
   {
     key: 1,
     name: "Caves and Thorns",
+    image: CavesAndThornsIMG,
     description:
       "Uma demo de um jogo top-down feito durante o curso de game development da DANKI.CODE. O nome dessa demo dá-se à ambientação do jogo, onde os personagens são suculentas, famosas por seus espinhos, que formam uma sociedade primitiva em cavernas subterrâneas.",
     tools: ["Java", "AWT"],
@@ -9,6 +15,7 @@ export const PROJECTS: ProjectType[] = [
   {
     key: 2,
     name: "Foto Shopping",
+    image: FotoShoppingIMG,
     description:
       "Um aplicativo de gerenciamento de estoque com foco em auxiliar vendedores que trabalham em lojas físicas através de redes sociais e que precisem disponibilizar imagens de seus produtos rapidamente, sem possuir um site de vendas profissional.",
     tools: ["Python", "PySimpleGUI", "SQLite3", "Pillow"],
@@ -19,6 +26,7 @@ export const PROJECTS: ProjectType[] = [
   {
     key: 3,
     name: "Meu Antigo Portfólio",
+    image: IUULIMG,
     description:
       "Este portfólio foi desenvolvido como desafio do programa de residência em Front-End da iUUL em parceria com a PRO-REFORMA. ",
     tools: ["HTML", "CSS", "Bootstrap"],
@@ -30,6 +38,7 @@ export const PROJECTS: ProjectType[] = [
   {
     key: 4,
     name: "Este Portfólio",
+    image: PlaceHolderIMG,
     description: "",
     tools: ["React.JS", "TypeScript", "TailwindCSS"],
     links: [
