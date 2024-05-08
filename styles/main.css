@@ -95,6 +95,7 @@ body {
     height: 70vh;
     max-width: 80vw;
   }
+
 }
 
 #uolkut_card {
@@ -315,5 +316,12 @@ body {
 @media screen and (max-width: 768px) {
   #formacao-cards-wrapper .card .card-body :not(.small){
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #spotify_card .image-wrapper{
+    text-align: left;
+    height:100%;
   }
 }
